@@ -14,4 +14,5 @@ The portal application allows students to enter their personal and academic deta
 2. Run `python -m venv venv` to setup a virtual environment
 3. Run `venv\Scripts\activate` (on Windows) to activate the virtual environment
 4. Run `pip install -r requirements.txt` to install all necessary packages in the virtual environment
-5. Run `python app.py` to start up the application
+5. In `app.py`, set `debug=True` in `app.run()` if running in development mode
+6. Run `python app.py` to start up the application
